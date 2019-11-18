@@ -1,0 +1,5 @@
+cron4j=task1
+task1.cron=*/1 * * * *
+task1.class=cc.darhao.undertow_demo.ChatManagerTask
+task1.daemon=false
+task1.enable=true
